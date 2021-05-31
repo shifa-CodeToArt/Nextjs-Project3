@@ -1,0 +1,19 @@
+{
+  "name": "movie-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "next": "10.2.3",
+    "node-sass": "^6.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
